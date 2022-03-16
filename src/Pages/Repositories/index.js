@@ -27,7 +27,7 @@ export default function Repositories(){
 
     return(
         <S.Container>
-            <S.Title>Repositórios  " {nomeUsuario} " </S.Title>
+            <S.Title>Repositórios - {nomeUsuario}</S.Title>
 
             <S.List>
                 { repositories.map(repository => {
