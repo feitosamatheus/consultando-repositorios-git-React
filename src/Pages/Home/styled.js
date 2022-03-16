@@ -77,11 +77,13 @@ export const Container = styled.div`
     width: 60vw;
     display:flex;
     align-items: center;
+    margin-left:auto;
     justify-content: center;
 
     @media(max-width: 600px){
         margin-bottom: 50vh;
-        margin-right:7.5rem;
+        margin-right:3.3rem;
+        margin-left:none;
         
     }
 
